@@ -1,15 +1,12 @@
 import React, { useState } from "react";
-import Dropdown from "react-bootstrap/Dropdown";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import ButtonGroup from "react-bootstrap/ButtonGroup";
-import ToggleButton from "react-bootstrap/ToggleButton";
+
 import Accordion from "react-bootstrap/Accordion";
-import Data from "../data.json";
 import RadioButton from "./RadioButton";
 export default function ContactForm() {
     return (
